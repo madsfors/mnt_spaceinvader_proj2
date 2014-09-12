@@ -1,0 +1,21 @@
+Space invaders design requirements
+
+Monsters move in a block
+Monsters move to one side, then one unit down, then to the other side
+Monsters move faster once they’ve moved down
+The monster nearest the player in each column may shoot
+If the player is hit by a shot, one life is lost
+If a shot hits one of the barriers, the barrier partially crumbles
+The player may only fire his gun once his previous bullet has either hit something or moved off the screen
+Sometimes, a special spaceship appears at the top and scrolls quickly by. If hit, random amount of bonus points are earned.
+If the player’s bullet hits the barrier, the barrier partially crumbles (i.e. the player is stupid for shooting his own barricade)
+Points score and number of lives are tallied at the top of the screen
+There must be a high-score list (Toke edit: Jo hurtigere man skyder alle fjenderne, jo bedre er man?)
+
+DEN SKAL SPILLE LIGE HURTIGT PÅ ALLE COMPUTERE!
+
+Class for player
+Class for monster
+Class for block of monsters
+Class for bonus ship
+Class for shot(s)
